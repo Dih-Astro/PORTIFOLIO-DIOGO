@@ -118,6 +118,7 @@ section.topo-do-site .flex{
 .topo-do-site .txt-topo-site p{
     color: #fff;
     margin: 40px 0;
+    text-align: justify;
     
 }
 
@@ -182,22 +183,31 @@ h2.titulo{
 
 
 .especialidades .tecnologias:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 20px #ffffff78;
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px #ffffff78; 
 
 }
 
 .especialidades .tecnologias i{
     font-size: 70px;
     color: rgb(54, 54, 152);
+    transition: transform .5s ease-in-out; /* Adiciona transição suave para a rotação */
     
 
 }
+
+
+.especialidades .tecnologias:hover i{
+     transform: rotate(360deg) ;/* Gira o ícone em 360 graus no hover */
+}
+
 .especialidades .tecnologias h3{
     font-size: 28px;
     margin: 15px 0;
 
 }
+
+
 
 /* ESTILO DO SOBRE */
 
@@ -210,6 +220,10 @@ section.sobre .flex{
     
     gap: 60px
 }
+.img-sobre img{
+    border-radius: 30px;
+}
+
 .sobre .txt-sobre{
     color: #fff;
 
