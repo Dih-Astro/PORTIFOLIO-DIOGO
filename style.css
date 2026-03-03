@@ -93,11 +93,7 @@ header .btn-contato{
 
 /* ESTILO DO TOPO DO SITE*/
 section.topo-do-site{
-    padding: 20px 4%;
-    
-
-
-
+    padding: 150px 4% 20px;
 }
 
 section.topo-do-site .flex{
@@ -390,6 +386,7 @@ section.portfolio .flex{
     /* classes gerais*/
     .topo-do-site.flex {
         flex-direction: column-reverse;
+        
 
     }
     .flex{
@@ -409,7 +406,7 @@ section.portfolio .flex{
     /* topo do site*/
 
     section.topo-do-site{
-    padding: 20px 8%;
+    padding: 150px 8%;
     
     }
 
